@@ -1,6 +1,6 @@
 	;; Linear-feedback shift register
 	;;	
-	;; Loop cycle: 3.125 (lo) and 3.25 (hi) microseconds
+	;; Loop cycle =  26 clock cycles = 3.25 microseconds
 
 DDRB  = 0x04
 PINB  = 0x05
@@ -49,5 +49,6 @@ set:
 
 clear:	
 	cbi	PINB,0
+	nop
 	rjmp	loop
 
