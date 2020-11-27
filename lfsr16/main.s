@@ -1,6 +1,6 @@
 	;; Linear-feedback shift register
 	;;	
-	;; Loop cycle =  26 clock cycles = 3.25 microseconds
+	;; Loop cycle =  27 clock cycles = 3.375 microseconds
 
 DDRB  = 0x04
 PINB  = 0x05
